@@ -1,10 +1,9 @@
 # healpix-boost
-This modified version of HEALPix, HEALPix-Boost was originally created by Riccardo Catena with help from Alessio Notari and later contributions from Miguel Quartin. 
+This modified version of HEALPix, HEALPix-Boost was originally created by Riccardo Catena with help from Alessio Notari and later contributions from Miguel Quartin and Pedro da Silveira Ferreira.
 
-HEALPix-Boost wa tested with version HEALPix v3.10, and may need adjustments to be compatible with other versions.
+HEALPix-Boost was tested with version HEALPix v3.10, and may need adjustments to be compatible with other HEALPix versions.
 
-To compile HEALPix-Boost just download the source code of HEALPix v3.10 and replace the "f90" directory inside the "src" directory with the one provided on this webpage: "f90-aber-3.10.zip". 
-It may be necessary to do a "make clean" before configuring the HEALPix installation with the new f90 folder.
+To compile HEALPix-Boost just download the source code of HEALPix v3.10 and replace the "f90" directory inside the "src" directory with the one provided on this webpage: "f90-aber-3.10.zip". It may be necessary to do a "make clean" before configuring the HEALPix installation with the new f90 folder.
 
 This modified package probably does not work with the Parallel implementation of HEALPix, so we recommend that you choose the Serial implementation when compiling.
 
@@ -25,7 +24,7 @@ HEALPix-Boost works by implementing Doppler and aberration in pixel-space. It mo
 [--SYNFAST--] 
 It adds two flags to the synfast routine:
 
-1) ab_dopp = 0, 1 or 2  [0 for no boost, 1 for Doppler only, 2 for both Doppler and aberration]
+1) ab_dopp = 0, 1, 2 or 3  [0 for no boost, 1 for Doppler only, 2 for both Doppler and aberration, 3 for aberration only]
 
 2) beta [signed real number describing the magnitude of the velocity v/c, assumed to be along the north pole of the map]
 
