@@ -1,17 +1,17 @@
 # healpix-boost
-This modified version of HEALPix, HEALPix-Boost was originally created by Riccardo Catena with help from Alessio Notari and later contributions from Miguel Quartin and Pedro da Silveira Ferreira.
+This modified version of HEALPix, HEALPix-Boost was originally created by Riccardo Catena with help from Alessio Notari during their work "Cosmological parameter estimation: impact of CMB aberration," JCAP 1304 (2013) 028 [arXiv:1210.2731]. It got later contributions from Miguel Quartin and Pedro da Silveira Ferreira.
 
-HEALPix-Boost was tested with version HEALPix v3.10, and may need adjustments to be compatible with other HEALPix versions.
+HEALPix-Boost was tested with HEALPix version 3.10, and may need adjustments to be compatible with newer HEALPix versions.
 
 To compile HEALPix-Boost just download the source code of HEALPix v3.10 and replace the "f90" directory inside the "src" directory with the one provided on this webpage: "f90-aber-3.10.zip". It may be necessary to do a "make clean" before configuring the HEALPix installation with the new f90 folder.
 
-This modified package probably does not work with the Parallel implementation of HEALPix, so we recommend that you choose the Serial implementation when compiling.
+This modified package probably does not currently work with the Parallel implementation of HEALPix, so we recommend that you choose the Serial implementation when compiling.
 
 ****************************************************************
 
 Any publications making use of HEALPix-Boost should cite this paper on which the code was originally tested:
 
-A. Notari, M. Quartin and R. Catena, "CMB Aberration and Doppler Effects as a Source of Hemispherical Asymmetries", JCAP 1403(2013) 019 [arXiv:1304.3506 [astro-ph.CO]].
+A. Notari, M. Quartin and R. Catena, "CMB Aberration and Doppler Effects as a Source of Hemispherical Asymmetries", JCAP 1403(2013) 019 [arXiv:1304.3506].
 
 ****************************************************************
 
