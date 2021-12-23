@@ -9,9 +9,7 @@ This modified package probably does not work with the Parallel implementation of
 
 ****************************************************************
 
-Any publications making use of HEALPix-Boost should cite these papers on which the code was originally tested:
-
-R. Catena and A. Notari, "Cosmological parameter estimation: impact of CMB aberration," JCAP 1304 (2013) 028 [arXiv:1210.2731 [astro-ph.CO]].
+Any publications making use of HEALPix-Boost should cite this paper on which the code was originally tested:
 
 A. Notari, M. Quartin and R. Catena, "CMB Aberration and Doppler Effects as a Source of Hemispherical Asymmetries", JCAP 1403(2013) 019 [arXiv:1304.3506 [astro-ph.CO]].
 
