@@ -1,5 +1,5 @@
 # healpix-boost
-This modified version of HEALPix, HEALPix-Boost was originally created by Riccardo Catena with help from Alessio Notari during their work "Cosmological parameter estimation: impact of CMB aberration," JCAP 1304 (2013) 028 [arXiv:1210.2731]. It got later contributions from Miguel Quartin and Pedro da Silveira Ferreira.
+This modified version of HEALPix, HEALPix-Boost was originally created by Riccardo Catena with help from Alessio Notari during their work "Cosmological parameter estimation: impact of CMB aberration", JCAP 1304 (2013) 028 [arXiv:1210.2731]. It got later contributions from Miguel Quartin and Pedro da Silveira Ferreira.
 
 HEALPix-Boost was tested with HEALPix version 3.10, and may need adjustments to be compatible with newer HEALPix versions.
 
